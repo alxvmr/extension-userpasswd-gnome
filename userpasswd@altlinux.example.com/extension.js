@@ -29,7 +29,7 @@ async function onStartChild() {
         const proc = Gio.Subprocess.new(['userpasswd'],
             Gio.SubprocessFlags.NONE);
         
-        const success = await proc.await_check_async(null);
+        const success = await proc.wait_check_async(null);
         console.log (`The process ${success? 'succeeded' : 'failed'}`);
     } catch (e) {
         logError(e);
