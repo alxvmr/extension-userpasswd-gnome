@@ -42,7 +42,7 @@ const UserpasswdToggle = GObject.registerClass(
             super({
                 title: 'Change password',
                 iconName: 'face-smile-symbolic',
-                toggleMode: true,
+                toggleMode: false,
             });
 
             this.connect('clicked', onStartChild);
