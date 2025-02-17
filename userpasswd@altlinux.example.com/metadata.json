@@ -1,0 +1,8 @@
+{
+  "name": "Change password",
+  "description": "Change your password",
+  "uuid": "userpasswd@altlinux.example.com",
+  "shell-version": [
+    "47"
+  ]
+}
