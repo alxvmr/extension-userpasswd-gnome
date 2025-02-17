@@ -2,6 +2,7 @@
   "name": "Change password",
   "description": "Change your password",
   "uuid": "userpasswd@altlinux.example.com",
+  "gettext-domain": "userpasswd-extension",
   "shell-version": [
     "47"
   ]

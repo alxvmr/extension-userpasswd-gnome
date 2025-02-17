@@ -40,7 +40,7 @@ const UserpasswdToggle = GObject.registerClass(
     class UserpasswdToggle extends QuickToggle {
         constructor() {
             super({
-                title: 'Change password',
+                title: _("Change password"),
                 iconName: 'face-smile-symbolic',
                 toggleMode: false,
             });
