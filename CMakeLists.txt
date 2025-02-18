@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5.0)
-project(extension-userpasswd-gnome VERSION 0.0.1)
+project(gnome-shell-extension-userpasswd VERSION 0.0.1)
 
 set (USER_HOME "$ENV{HOME}")
 set (UUID "userpasswd@altlinux.example.com")
