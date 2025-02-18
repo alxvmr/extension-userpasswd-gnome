@@ -34,7 +34,7 @@ async function onStartChild() {
         const success = await proc.wait_check_async(null);
         // console.log (`The process ${success? 'succeeded' : 'failed'}`);
     } catch (e) {
-        logError(e);
+        Main.notifyError (_("Error"), e.message);
     }
 }
 
