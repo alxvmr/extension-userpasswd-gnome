@@ -32,7 +32,7 @@ async function onStartChild() {
         Main.panel.closeQuickSettings();
         
         const success = await proc.wait_check_async(null);
-        console.log (`The process ${success? 'succeeded' : 'failed'}`);
+        // console.log (`The process ${success? 'succeeded' : 'failed'}`);
     } catch (e) {
         logError(e);
     }
