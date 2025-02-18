@@ -1,7 +1,18 @@
 cmake_minimum_required(VERSION 3.5.0)
 project(extension-userpasswd-gnome VERSION 0.0.1)
 
-add_subdirectory(userpasswd@altlinux.example.com/locale)
+set (USER_HOME "$ENV{HOME}")
+set (UUID "userpasswd@altlinux.example.com")
+
+set (EXTENSION_FILES
+    ${UUID}/extension.js
+    ${UUID}/metadata.json
+)
+
+add_subdirectory(${UUID}/locale)
+
+install (FILES ${EXTENSION_FILES}
+         DESTINATION /usr/share/gnome-shell/extensions/${UUID})
 
 set(CMAKE_CLEAN_FILES ${PROJECT_NAME})
 include(GNUInstallDirs)
