@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.5.0)
 project(gnome-shell-extension-userpasswd VERSION 0.0.1)
 
 set (USER_HOME "$ENV{HOME}")
-set (UUID "userpasswd@altlinux.example.com")
+set (UUID "userpasswd@altlinux.org")
 
 set (EXTENSION_FILES
     ${UUID}/extension.js

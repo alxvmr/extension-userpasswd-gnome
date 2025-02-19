@@ -1,4 +1,4 @@
-%define uuid userpasswd@altlinux.example.com
+%define uuid userpasswd@altlinux.org
 
 Name:    gnome-shell-extension-userpasswd
 Version: 0.0.1
