@@ -13,6 +13,7 @@ BuildArch: noarch
 BuildRequires(pre): rpm-macros-cmake
 BuildRequires: ccmake gcc-c++
 BuildRequires: gnome-shell >= 47
+Requires: userpasswd-gnome
 
 Source0: %name-%version.tar
 
